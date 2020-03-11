@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7624641C2413EDF700F52992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624641B2413EDF700F52992 /* AppDelegate.swift */; };
+		7624641E2413EDF700F52992 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624641D2413EDF700F52992 /* SceneDelegate.swift */; };
+		762464202413EDF700F52992 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624641F2413EDF700F52992 /* ViewController.swift */; };
+		762464232413EDF700F52992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762464212413EDF700F52992 /* Main.storyboard */; };
+		762464252413EDF700F52992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762464242413EDF700F52992 /* Assets.xcassets */; };
+		762464282413EDF700F52992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762464262413EDF700F52992 /* LaunchScreen.storyboard */; };
+		762464312413EECA00F52992 /* PhotoSelectionKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762464302413EECA00F52992 /* PhotoSelectionKeyboard.swift */; };
+		762464332413EF3700F52992 /* PhotosCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762464322413EF3700F52992 /* PhotosCollectionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		762464182413EDF700F52992 /* PhotoSelectionKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSelectionKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7624641B2413EDF700F52992 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7624641D2413EDF700F52992 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7624641F2413EDF700F52992 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		762464222413EDF700F52992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		762464242413EDF700F52992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		762464272413EDF700F52992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		762464292413EDF700F52992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762464302413EECA00F52992 /* PhotoSelectionKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectionKeyboard.swift; sourceTree = "<group>"; };
+		762464322413EF3700F52992 /* PhotosCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		762464152413EDF700F52992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7624640F2413EDF700F52992 = {
+			isa = PBXGroup;
+			children = (
+				7624641A2413EDF700F52992 /* PhotoSelectionKeyboard */,
+				762464192413EDF700F52992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		762464192413EDF700F52992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				762464182413EDF700F52992 /* PhotoSelectionKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7624641A2413EDF700F52992 /* PhotoSelectionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7624642F2413EEA800F52992 /* Keyboard */,
+				7624641B2413EDF700F52992 /* AppDelegate.swift */,
+				7624641D2413EDF700F52992 /* SceneDelegate.swift */,
+				7624641F2413EDF700F52992 /* ViewController.swift */,
+				762464212413EDF700F52992 /* Main.storyboard */,
+				762464242413EDF700F52992 /* Assets.xcassets */,
+				762464262413EDF700F52992 /* LaunchScreen.storyboard */,
+				762464292413EDF700F52992 /* Info.plist */,
+			);
+			path = PhotoSelectionKeyboard;
+			sourceTree = "<group>";
+		};
+		7624642F2413EEA800F52992 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				762464302413EECA00F52992 /* PhotoSelectionKeyboard.swift */,
+				762464322413EF3700F52992 /* PhotosCollectionCell.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		762464172413EDF700F52992 /* PhotoSelectionKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7624642C2413EDF700F52992 /* Build configuration list for PBXNativeTarget "PhotoSelectionKeyboard" */;
+			buildPhases = (
+				762464142413EDF700F52992 /* Sources */,
+				762464152413EDF700F52992 /* Frameworks */,
+				762464162413EDF700F52992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoSelectionKeyboard;
+			productName = PhotoSelectionKeyboard;
+			productReference = 762464182413EDF700F52992 /* PhotoSelectionKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		762464102413EDF700F52992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Anoop M";
+				TargetAttributes = {
+					762464172413EDF700F52992 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 762464132413EDF700F52992 /* Build configuration list for PBXProject "PhotoSelectionKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7624640F2413EDF700F52992;
+			productRefGroup = 762464192413EDF700F52992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				762464172413EDF700F52992 /* PhotoSelectionKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		762464162413EDF700F52992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762464282413EDF700F52992 /* LaunchScreen.storyboard in Resources */,
+				762464252413EDF700F52992 /* Assets.xcassets in Resources */,
+				762464232413EDF700F52992 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		762464142413EDF700F52992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762464332413EF3700F52992 /* PhotosCollectionCell.swift in Sources */,
+				762464312413EECA00F52992 /* PhotoSelectionKeyboard.swift in Sources */,
+				762464202413EDF700F52992 /* ViewController.swift in Sources */,
+				7624641C2413EDF700F52992 /* AppDelegate.swift in Sources */,
+				7624641E2413EDF700F52992 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		762464212413EDF700F52992 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				762464222413EDF700F52992 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		762464262413EDF700F52992 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				762464272413EDF700F52992 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7624642A2413EDF700F52992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7624642B2413EDF700F52992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7624642D2413EDF700F52992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UT7M6DT43;
+				INFOPLIST_FILE = PhotoSelectionKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anoop.PhotoSelectionKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7624642E2413EDF700F52992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UT7M6DT43;
+				INFOPLIST_FILE = PhotoSelectionKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anoop.PhotoSelectionKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		762464132413EDF700F52992 /* Build configuration list for PBXProject "PhotoSelectionKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7624642A2413EDF700F52992 /* Debug */,
+				7624642B2413EDF700F52992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7624642C2413EDF700F52992 /* Build configuration list for PBXNativeTarget "PhotoSelectionKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7624642D2413EDF700F52992 /* Debug */,
+				7624642E2413EDF700F52992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 762464102413EDF700F52992 /* Project object */;
+}
